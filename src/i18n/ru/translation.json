@@ -1,9 +1,9 @@
 {
   "basic_info": {
-    "name": "Saidmurodkhon Khusanov",
+    "name": "Саидмуродхон Хусанов",
     "titles": [
-      "Front-end Developer",
-      "Junior Data Engineer"
+      "Фронтенд-разработчик",
+      "Младший инженер данных"
     ],
     "socials": [
       {
@@ -16,19 +16,19 @@
       },
       {
         "icon": "mdi:telegram",
-        "url": "https://t.me/Ecommerce000"
+        "url": "https://t.me/Ecommerce0"
       }
     ]
   },
   "about_me": {
-    "title": "About me",
-    "greeting": "Hi, I'm Saidmurodkhon",
-    "content": " I am a passionate Frontend Developer with a knack for creating intuitive and dynamic user experiences. With a strong foundation in HTML, CSS, and JavaScript, I excel at transforming complex problems into elegant, user-friendly solutions. My expertise in frameworks like React and Vue.js allows me to build responsive and performant web applications. I thrive in collaborative environments and am committed to continuous learning to stay ahead in this fast-paced industry. Let's bring your digital vision to life!",
+    "title": "Обо мне",
+    "greeting": "Привет, я Саидмуродхон",
+    "content": "Я страстный фронтенд-разработчик, умеющий создавать интуитивно понятный и динамичный пользовательский интерфейс. Имея прочную основу в HTML, CSS и JavaScript, я преуспеваю в преобразовании сложных проблем в элегантные и удобные для пользователя решения. Мой опыт работы с такими фреймворками, как React и Vue.js, позволяет мне создавать адаптивные и производительные веб-приложения. Я преуспеваю в совместной среде и стремлюсь постоянно учиться, чтобы оставаться впереди в этой быстро развивающейся отрасли. Давайте воплотим ваше цифровое видение в жизнь!",
     "image": "myProfile.jpg",
     "tech_stacks": ["devicon:react", "devicon:redux", "devicon:typescript"]
   },
   "projects": {
-    "title": "projects",
+    "title": "проекты",
     "projects": [
       {
         "title": "Github User",
@@ -406,7 +406,7 @@
     ]
   },
   "skills": {
-    "title": "Skills",
+    "title": "Навыки",
     "icons": [
       {
         "name": "HTML 5",
@@ -447,39 +447,12 @@
         "name": "Bootstrap",
         "class": "ri:bootstrap-fill",
         "level": "85"
-      }
-    ]
-  },
-  "experience": {
-    "title": "Experience",
-    "experiences": [
-      {
-        "company": "DefOpenSource",
-        "title": "Front-End Developer",
-        "years": "10.2019 - present",
-        "mainTech": "Angular 8/9/10",
-        "mainTechIcon": "mdi:angular",
-        "technologies": [
-          "REST API",
-          "RxJS",
-          "JavaScript",
-          "Bootstrap",
-          "MDBootstrap",
-          "EF Core",
-          ".NET Core",
-          "SignalR",
-          "Angular Material"
-        ]
       },
       {
-        "company": "Serros Solutions",
-        "title": "Intern",
-        "years": "01.2018 - 09.2019",
-        "mainTech": "React",
-        "mainTechIcon": "mdi:react",
-        "technologies": ["RxJS", "Django", "PHP", "JavaScript", "DHTMLX Gantt"]
+        "name": "MySql",
+        "class": "fontisto:mysql",
+        "level": "60"
       }
     ]
-  },
-  "copyright": "Copyright"
+  }
 }

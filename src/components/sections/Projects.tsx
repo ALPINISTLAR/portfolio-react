@@ -24,12 +24,12 @@ const Projects = () => {
       <div className="flex flex-wrap justify-center gap-10">
         {t("projects.projects", { returnObjects: true }).map((item) => (
           <div
-            className="mb-[30px] inline-block cursor-pointer bg-white p-3 text-center shadow-card transition duration-[0.2] ease-linear hover:scale-[1.01] hover:shadow-card-hover dark:bg-[#6d6d6d]"
+            className="mb-[30px] inline-block cursor-pointer bg-white p-3 text-center shadow-card transition duration-[0.2] ease-linear hover:scale-[1.01] hover:shadow-card-hover dark:bg-[#6d6d6d] w-1/4"
             onClick={() => handleProjectDetails(item)}
             key={item.title}
           >
             <img
-              className="relative max-h-[230px]"
+              className="relative w-[100%] max-h-[220px] object-cover"
               src={item.images[0]}
               alt="Profile"
             />
