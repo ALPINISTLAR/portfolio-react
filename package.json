@@ -12,13 +12,14 @@
   "dependencies": {
     "@fontsource/raleway": "^5.0.8",
     "@headlessui/react": "^1.7.16",
+    "@iconify/icons-emojione": "^1.2.6",
     "@vitejs/plugin-react": "^4.3.0",
     "clsx": "^2.0.0",
     "i18next": "^23.4.4",
     "i18next-browser-languagedetector": "^7.1.0",
-    "react": "^18.2.0",
+    "react": "^18.3.1",
     "react-awesome-slider": "^4.1.0",
-    "react-dom": "^18.2.0",
+    "react-dom": "^18.3.1",
     "react-i18next": "^13.1.2",
     "react-switch": "^7.0.0",
     "react-type-animation": "^3.1.0",
@@ -41,7 +42,7 @@
     "postcss": "^8.4.31",
     "prettier": "^3.0.1",
     "prettier-plugin-tailwindcss": "^0.4.1",
-    "tailwindcss": "^3.3.3",
+    "tailwindcss": "^3.4.3",
     "typescript": "^5.0.2",
     "vite": "^4.5.2"
   }

@@ -21,10 +21,10 @@ const Projects = () => {
       <h2 className="py-10 text-center text-xl font-medium uppercase tracking-widest text-black">
         {t("projects.title")}
       </h2>
-      <div className="flex flex-wrap justify-center gap-10">
+      <div className="grid sm:grid-cols-1 md:grid-cols-2 lg:grid-cols-3 justify-center gap-10 px-10 max-w-[1200px] mx-auto">
         {t("projects.projects", { returnObjects: true }).map((item) => (
           <div
-            className="mb-[30px] inline-block cursor-pointer bg-white p-3 text-center shadow-card transition duration-[0.2] ease-linear hover:scale-[1.01] hover:shadow-card-hover dark:bg-[#6d6d6d] w-1/4"
+            className="mb-[30px] inline-block cursor-pointer bg-white p-3 text-center shadow-card transition duration-[0.2] ease-linear hover:scale-[1.01] hover:shadow-card-hover dark:bg-[#6d6d6d] w-[100%] overflow-hidden"
             onClick={() => handleProjectDetails(item)}
             key={item.title}
           >
