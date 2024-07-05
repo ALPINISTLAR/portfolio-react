@@ -31,6 +31,37 @@
     "title": "projects",
     "projects": [
       {
+        "title": "Spotify Clone",
+        "startDate": "2024",
+        "images": [
+          "images/portfolio/spotify/spotify0.png",
+          "images/portfolio/spotify/spotify.png"
+        ],
+        "github": "https://github.com/ALPINISTLAR/final-exam-nt",
+        "netlify": "https://saidmurodkhon-final-exam.netlify.app/",
+        "technologies": [
+          {
+            "class": "ri:html5-fill",
+            "name": "HTML 5",
+            "level": "95"
+          },
+          {
+            "name": "CSS 3",
+            "class": "teenyicons:css3-solid"
+          },
+          {
+            "name": "React",
+            "class": "fontisto:react",
+            "level": "50"
+          },
+          {
+            "name": "Redux",
+            "class": "fontisto:redux",
+            "level": "50"
+          }
+        ]
+      },
+      {
         "title": "Github User",
         "startDate": "2024",
         "images": [
