@@ -1,8 +1,19 @@
+# --- Build configuration ---
+[build]
+  command = "npm run build"
+  publish = "dist"
+
+[build.environment]
+  NODE_VERSION = "22"
+  NETLIFY_BUILD_IMAGE = "ubuntu-24.04"
+
+# --- Redirects ---
 [[redirects]]
   from = "/*"
   to = "/index.html"
   status = 200
 
+# --- Headers ---
 [[headers]]
   for = "/*.js"
   [headers.values]
